@@ -1,4 +1,4 @@
-package modchu.resurrectionFeather.asm;
+package modchu.resurrectionfeathercore.asm;
 
 import java.io.File;
 import java.util.Map;
@@ -6,8 +6,8 @@ import java.util.Map;
 import cpw.mods.fml.relauncher.IFMLLoadingPlugin;
 import cpw.mods.fml.relauncher.IFMLLoadingPlugin.TransformerExclusions;
 
-@TransformerExclusions({"modchu.resurrectionFeather.asm"})
-@IFMLLoadingPlugin.MCVersion("1.6.2")
+@TransformerExclusions({"modchu.resurrectionfeathercore.asm"})
+@IFMLLoadingPlugin.MCVersion("1.6.4")
 public class ResurrectionFeatherCorePlugin implements IFMLLoadingPlugin {
 
     static File location;
@@ -19,12 +19,12 @@ public class ResurrectionFeatherCorePlugin implements IFMLLoadingPlugin {
 
     @Override
     public String[] getASMTransformerClass() {
-        return new String[]{"modchu.resurrectionFeather.asm.ResurrectionFeatherTransformer"};
+        return new String[]{"modchu.resurrectionfeathercore.asm.ResurrectionFeatherTransformer"};
     }
 
     @Override
     public String getModContainerClass() {
-        return "modchu.resurrectionFeather.ResurrectionFeatherCore";
+        return "modchu.resurrectionfeathercore.ResurrectionFeatherCore";
     }
 
     @Override

@@ -1,4 +1,4 @@
-package modchu.resurrectionFeather;
+package modchu.resurrectionfeathercore;
 
 import java.util.Arrays;
 
@@ -11,7 +11,7 @@ public class ResurrectionFeatherCore extends DummyModContainer {
 		super(new ModMetadata());
 		ModMetadata meta = getMetadata();
 
-		meta.modId = "resurrectionFeatherCore";
+		meta.modId = "resurrectionfeathercore";
 		meta.name = "ResurrectionFeatherCore";
 		meta.version = "1";
 		meta.credits = "modchu";
