@@ -12,7 +12,6 @@ public class ResurrectionFeatherCorePlugin implements IFMLLoadingPlugin {
 
     static File location;
 
-    @Override
     public String[] getLibraryRequestClass() {
         return null;
     }

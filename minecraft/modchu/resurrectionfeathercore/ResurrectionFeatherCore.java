@@ -13,7 +13,7 @@ public class ResurrectionFeatherCore extends DummyModContainer {
 
 		meta.modId = "resurrectionfeathercore";
 		meta.name = "ResurrectionFeatherCore";
-		meta.version = "1";
+		meta.version = "1a";
 		meta.credits = "modchu";
 		meta.authorList = Arrays.asList(new String[] { "modchu" });
 		meta.description = "";
